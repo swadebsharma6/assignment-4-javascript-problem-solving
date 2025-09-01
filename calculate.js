@@ -9,9 +9,5 @@ function calculateTax(income, expense){
       return tax;
 }
 
-const income = 5000;
-const expense = 1500;
-
-
-const tax = calculateTax(income, expense);
-console.log('tax:', tax);
+const income = 6000;
+const expense = -1500;
